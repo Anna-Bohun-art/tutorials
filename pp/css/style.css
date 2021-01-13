@@ -1,0 +1,36 @@
+
+
+#playground{
+  position: relative;
+  width:600px;
+  height:300px;
+  border: 1px solid grey;
+  overflow: hidden;
+}
+.player1 { 
+	position: relative;
+	top: 10px;
+	left: 10px;
+	width: 10px;
+	height: 80px;
+	float: left;
+	background: #fff;
+}
+
+.player2 {
+	position: relative;
+	top: 10px;
+	right: 10px;
+	width: 10px;
+	height: 80px;
+	float: right;
+	background: #fff;
+}
+.ball {
+	position: relative;
+	top: 100px;
+	left: 300px;
+	width: 10px;
+	height: 10px;
+	background: #fff;
+}
